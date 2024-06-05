@@ -40,7 +40,10 @@ public class MerchantController {
 			merchant.setEmail(sc.next());
 			merchant.setPassword(sc.next());
 			merchant = merchantDao.updateMerchant(merchant);
-			System.out.println("merchant with Id:" + merchant.getId() + " Updated");
+			if (merchant != null)
+				System.out.println("merchant with Id:" + merchant.getId() + " Updated");
+			else
+				System.err.println("cannot Update Merchant as Id is Invalid");
 			break;
 		}
 		case 3: {
