@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="find-by-id" method="get">
-		<input type="number" name="id" placeholder="Enter the employee Id"><br>
-		<input type="submit" value="FindById">
-	</form>
+	<h2 style="color: red;">${message }</h2>
 </body>
 </html>

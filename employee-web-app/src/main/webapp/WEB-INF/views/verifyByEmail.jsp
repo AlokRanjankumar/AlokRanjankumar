@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<form action="verify-by-email" method="post">
+		<input type="tel" name="email" placeholder="Enter Your Email Id"><br>
+		<input type="password" name="password" placeholder="Enter Your Password"><br> 
+		<input	type="submit" value="Verify">
+	</form>
 </body>
 </html>
