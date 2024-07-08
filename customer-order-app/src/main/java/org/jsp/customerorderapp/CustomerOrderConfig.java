@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan({ "org.jsp.customerorderapp" })
 public class CustomerOrderConfig {
 	@Bean
-	public EntityManager entityManager() {
+	public EntityManager entityManager2() {
 	return Persistence.createEntityManagerFactory("dev").createEntityManager();
 	}
 }
