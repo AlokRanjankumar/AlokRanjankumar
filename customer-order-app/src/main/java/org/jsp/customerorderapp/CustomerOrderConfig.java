@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration1
 @ComponentScan({ "org.jsp.customerorderapp" })
 public class CustomerOrderConfig {
 	@Bean
